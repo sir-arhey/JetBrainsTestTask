@@ -1,6 +1,6 @@
 using RenameTesting.Interfaces;
 
-namespace JetBrainsTask.Positions
+namespace RenameTesting.Positions
 {
     public class FullProfessor : IProfessor
     {

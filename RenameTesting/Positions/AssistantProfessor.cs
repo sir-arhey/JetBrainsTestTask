@@ -1,5 +1,3 @@
-using JetBrainsTask.Positions;
-
 namespace RenameTesting.Positions;
 
 public class AssistantProfessor : FullProfessor

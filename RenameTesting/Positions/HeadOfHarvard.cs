@@ -1,8 +1,7 @@
 using RenameTesting.Interfaces;
-using Alias = JetBrainsTask.Positions.FullProfessor; 
-using static JetBrainsTask.Positions.FullProfessor;
+using Alias = RenameTesting.Positions.FullProfessor;
 
-namespace JetBrainsTask.Positions;
+namespace RenameTesting.Positions;
 
 public class HeadOfHarvard: IRector 
 {
@@ -25,11 +24,11 @@ public class HeadOfHarvard: IRector
 
     public string FormerPosition = "FullProfessor";
     
-    public FullProfessor Run(FullProfessor professor) //аргументы 25 кейс
+    public Alias Run(Alias professor) //аргументы 25 кейс
     {
-        FullProfessor.Method1(); //вызов статических методов класса 27 кейс
-        FullProfessor fullProfessor = new FullProfessor(); // объявление переменной и вызов конструктора
-        Console.WriteLine(nameof(FullProfessor)); //28 кейс
+        Alias.Method1(); //вызов статических методов класса 27 кейс
+        Alias fullProfessor = new Alias(); // объявление переменной и вызов конструктора
+        Console.WriteLine(nameof(Alias)); //28 кейс
         return professor;
     }
 }
