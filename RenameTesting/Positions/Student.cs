@@ -1,4 +1,5 @@
 using RenameTesting.Interfaces;
+using static RenameTesting.Positions.FullProfessor;
 
 namespace RenameTesting.Positions
 {

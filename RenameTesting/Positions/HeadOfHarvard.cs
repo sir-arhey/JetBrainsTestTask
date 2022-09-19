@@ -1,5 +1,5 @@
 using RenameTesting.Interfaces;
-using Alias = RenameTesting.Positions.FullProfessor;
+
 
 namespace RenameTesting.Positions;
 
@@ -24,11 +24,11 @@ public class HeadOfHarvard: IRector
 
     public string FormerPosition = "FullProfessor";
     
-    public Alias Run(Alias professor) //аргументы 25 кейс
+    public FullProfessor Run(FullProfessor professor)
     {
-        Alias.Method1(); //вызов статических методов класса 27 кейс
-        Alias fullProfessor = new Alias(); // объявление переменной и вызов конструктора
-        Console.WriteLine(nameof(Alias)); //28 кейс
+        FullProfessor.Method1();
+        FullProfessor fullProfessor = new FullProfessor();
+        Console.WriteLine(nameof(FullProfessor));
         return professor;
     }
 }
