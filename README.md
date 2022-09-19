@@ -1,3 +1,9 @@
 # JetBrainsTestTask
 
-Тестовые сценарии для проверки доступны по ссылке: https://docs.google.com/document/d/170rVGtrw1mJAgUGRzchcDYnl9-s0eyH-XBI8ep_GQFY/edit?usp=sharing
+Тестовые сценарии находятся в : [TestRail](https://arhey.testrail.io/index.php?/projects/overview/1)
+На вкладке 'Overview' результаты тестирования функциональности
+На вкладке 'Test Cases' список созданных сценариев, распределенных по секциям
+
+Данные для авторизации пользователем QAEngineer в TestRail:
+login: jet.brains.test@yandex.ru
+password: 9Pu|xASC
