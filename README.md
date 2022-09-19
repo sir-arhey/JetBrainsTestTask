@@ -6,5 +6,6 @@
 На вкладке 'Test Cases' список созданных сценариев, распределенных по секциям
 
 Данные для авторизации пользователем QAEngineer в TestRail:
+
 login: jet.brains.test@yandex.ru
 password: 9Pu|xASC
