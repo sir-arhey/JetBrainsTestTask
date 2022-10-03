@@ -6,7 +6,7 @@
 На вкладке 'Test Cases' список созданных сценариев, распределенных по секциям.
 Каждому тест-кейсу поставлен предполагаемый приоритет.
 
-Данные для авторизации пользователем QAEngineer в TestRail:
+Данные для авторизации пользователем в TestRail:
 
-login: jet.brains.test@yandex.ru
-password: 9Pu|xASC
+login: sir.arhey@gmail.com
+password: lmn7Htm*
